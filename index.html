@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kelvin Weather App</title>
+	<link type='text/css' rel='stylesheet' href='assets/css/styles.css' />
+</head>
+<body>
+<div id="topBar">
+	<a id="twitterButton" href="https://twitter.com/TheKelvinApp"></a>
+	<a id="appStoreButton" href="http://itunes.apple.com/us/app/kelvin-weather/id520373145?mt=8"></a>
+	<div id="topBarLogo"></div>
+</div>
+<div id="tag"></div>
+<div id="container1">
+	<div id="container2">
+		<div id="stepLeft" class="stepButton"></div>
+		<div id="stepRight" class="stepButton"></div>
+		<svg id="svgMain">
+			<defs>
+				<clipPath id="circleMask">
+					<circle cx="49.9%" cy="50%" r="341" fill="black"/>
+				</clipPath>
+			</defs>
+			
+			<image xlink:href="assets/img/bgCircle.png" width="702" height="702" />
+			<image class="weather" xlink:href="assets/img/bgCloudy.png" width="702" height="702" clip-path="url(#circleMask)" opacity="1" />
+			<image id="phone" xlink:href="assets/img/phoneCloudy.png" x="170" y="107" width="369" height="586" clip-path="url(#circleMask)" />
+		</svg>
+	</div>	
+</div>
+<div class="footer">
+	<div class="left"></div>
+    <div class="right"></div>
+    <span>2012 Kelvin Weather was made with love in the heart of Salt Lake City UT</span>
+    <span class="jelly"></span><span>A JellyJar Co product</span>
+    <a href="mailto:eric@JellyJar.co">Contact us</a>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/svg/jquery.svg.pack.js"></script>
+<script src="assets/js/svg/jquery.svganim.js"></script>
+<script src="assets/js/kelvin.js"></script>
+</body>
+</html>

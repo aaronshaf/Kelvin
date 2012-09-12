@@ -1,0 +1,109 @@
+body {
+	background-image: url(../img/bg.png);
+	margin: 0;
+	margin-bottom: 40px;
+}
+#topBar {
+	height: 50px;
+	position:fixed;
+	left:0;
+	right:0;
+	z-index:100;
+	top:0;
+	width: 100%;
+	background-image: url(../img/topBG.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#appStoreButton {
+	margin-top: 2px;
+	margin-left: 8px;
+	background:url(../img/sprt.png) no-repeat -230px 0;
+	height: 40px;
+	width: 265px;
+	float: left;
+	display: block;
+}
+#appStoreButton:hover {
+	background-position:-230px -46px;
+}
+#appStoreButton:active {
+	background-position:-230px -92px;
+}
+#twitterButton {
+	background: url(../img/sprt.png) no-repeat -61px 0;
+	margin-left: 8px;
+	height: 44px;
+	width: 169px;
+	float: right;
+	display: block;
+}
+#twitterButton:hover {
+	background-position:-61px -50px;
+}
+#twitterButton:active {
+	background-position:-61px -100px;
+}
+#topBarLogo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	margin-top: 2px;
+}
+#tag {
+	background-image: url(../img/KelvinTag.png);
+	background-repeat: no-repeat;
+	width: 338px;
+	height: 72px;
+	text-align: center;
+	margin: 120px auto 32px auto;
+	
+}
+#svgMain {
+	width: 703px;
+	height: 702px;
+	display: inline-block;
+	overflow: hidden;
+}
+#container2 {
+	height: 702px;
+	width: 843px;
+	margin: auto;
+}
+.stepButton {
+	margin-top: 326px;
+	background: url(../img/sprt.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+}
+#stepLeft {
+	float: left;
+	margin-right: 20px;
+	background-position:0 -180px;
+}
+#stepLeft:hover {
+	background-position:0 -120px;
+}
+#stepRight {
+	margin-left: 20px;
+	float: right;
+	background-position:0 -60px;
+}
+#stepRight:hover {
+	background-position:0 0;
+}
+
+.footer{background:url(../img/footerBG.png) repeat-x; width:700px; height:41px; margin:50px auto; position:relative; font:13px Helvetica, Arial, sans-serif; color:#63799A; padding:14px 25px 0 25px;}
+.footer a{text-decoration:none; font-weight:bold; display:inline-block; float:right; color:#63799A;}
+.footer .left, .footer .right{background:url(../img/footer.png) no-repeat; position:absolute; width:15px; height:41px; top:0}
+.footer .left{background-position:0 0; left:-15px;}
+.footer .right{background-position:-15px 0; right:-15px;}
+.footer span{display:inline-block; float:left;}
+.footer span.jelly{background:url(../img/jelly.png) no-repeat left; width:24px; height:24px; margin:-7px 8px 0 18px;}
+
